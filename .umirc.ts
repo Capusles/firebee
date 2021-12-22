@@ -12,6 +12,12 @@ export default defineConfig({
     ['import', {libraryName: 'antd', style: 'css'}, 'antd'],
   ],
   menus: {
+    '/homePage': [
+      {
+        title: '介绍',
+        children: ['homePage/index.md'],
+      },
+    ],
     '/component': [
       {
         title: 'CRUD',

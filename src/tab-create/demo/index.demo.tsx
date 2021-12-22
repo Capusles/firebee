@@ -17,7 +17,7 @@ function Tab(): ReactElement {
         }}
         tabProps={{
           onChange: (key) => {
-            console.log(key)
+
             setActive(key);
           },
           activeKey: active,
