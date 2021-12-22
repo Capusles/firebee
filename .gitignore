@@ -10,7 +10,7 @@
 # production
 /es
 /docs-dist
-
+/lib
 # misc
 .DS_Store
 /coverage
